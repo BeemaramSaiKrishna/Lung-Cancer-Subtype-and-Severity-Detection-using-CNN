@@ -382,29 +382,6 @@ LUAD/LUSC       Severe/Non-Severe
 
 ---
 
-##  Project Structure
-
-A recommended GitHub repository structure is:
-
-```text
-Lung-Cancer-Subtype-Severity-Detection/
-│
-├── CancerSeverityDetection.ipynb
-├── README.md
-│
-├── data/
-│   └── README.md
-│
-├── results/
-    ├── confusion_matrix.png
-    └── roc_curve.png
-
-```
-
-The large TCGA datasets can be kept outside the repository or downloaded separately because genomic datasets can be very large.
-
----
-
 ##  How to Run the Project
 
 ### 1. Clone the Repository
